@@ -1,0 +1,6 @@
+This repository uses per-file SPDX identifiers.
+
+- BSD-3-Clause: generator glue and stylesheet code.
+- CC0-1.0: site prose, configuration, and CI metadata.
+
+Full license texts are in LICENSES/.
