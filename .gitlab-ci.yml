@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: CC0-1.0
+image: alpine
+
+pages:
+  stage: deploy
+  script:
+    - apk update
+    - apk add make discount
+    - make it_stop
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
