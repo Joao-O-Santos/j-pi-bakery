@@ -12,6 +12,10 @@ The common recipe is intentionally simple: add one useful capability, keep the s
 <strong>Small-batch Pi extensions.</strong> Built independently for <a href="https://pi.dev/">Pi</a>; not an official Pi project.
 </div>
 
+<div class="hero-logo">
+  <img src="./logo.webp" alt="J's Pi Bakery logo">
+</div>
+
 ## The pies
 
 <div class="card-grid">
