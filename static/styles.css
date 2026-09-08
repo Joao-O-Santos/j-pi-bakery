@@ -24,20 +24,25 @@ body {
 .site-header {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 2.3rem 0 1rem;
+  gap: 1.2rem;
+  padding: 2.1rem 0 1rem;
 }
 
 .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 64px;
-  height: 64px;
-  border: 3px solid var(--crust-dark);
+  display: block;
+  flex: 0 0 auto;
+  width: 104px;
+  height: 104px;
+  overflow: hidden;
   border-radius: 50%;
-  background: var(--paper-deep);
-  color: var(--crust-dark);
-  font: 700 42px/1 Georgia, serif;
+  box-shadow: 0 5px 16px rgba(74, 49, 29, .16);
+}
+
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .brand-name { font-size: 1.7rem; font-weight: 700; color: var(--crust-dark); }
@@ -84,22 +89,30 @@ code {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.4rem;
   margin: 1.5rem 0;
+  justify-items: center;
 }
 
 .card {
-  padding: 1.15rem 1.2rem;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  background: #fffdf7;
-  box-shadow: 0 7px 18px rgba(74, 49, 29, .07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  padding: 2.1rem;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 42%, #fffdf7 0 64%, var(--paper-deep) 100%);
+  box-shadow: 0 8px 20px rgba(74, 49, 29, .09);
+  text-align: center;
 }
 
-.card h3 { margin: .3rem 0 .6rem; font-size: 1.35rem; }
-.card p { margin: .55rem 0; }
-.card-kicker { color: var(--muted); font: 700 .72rem/1.2 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
-.button { display: inline-block; margin-right: .45rem; padding: .28rem .65rem; border: 1px solid var(--crust); border-radius: 7px; text-decoration: none; font-weight: 700; }
+.card h3 { margin: .25rem 0 .45rem; font-size: 1.35rem; }
+.card p { margin: .4rem 0; font-size: .9rem; line-height: 1.4; }
+.card-kicker { color: var(--muted); font: 700 .68rem/1.2 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.button { display: inline-block; margin-right: .3rem; padding: .24rem .58rem; border: 1px solid var(--crust); border-radius: 999px; text-decoration: none; font-weight: 700; }
 
 footer {
   margin: 4rem 0 2rem;
@@ -111,6 +124,13 @@ footer {
 
 @media (max-width: 680px) {
   .card-grid { grid-template-columns: 1fr; }
+  .card { width: min(100%, 22rem); }
   .site-header { padding-top: 1.3rem; }
-  .brand-mark { width: 54px; height: 54px; font-size: 34px; }
+  .brand-mark { width: 82px; height: 82px; }
+}
+
+@media (max-width: 380px) {
+  .card { padding: 1.55rem; }
+  .card h3 { font-size: 1.2rem; }
+  .card p { font-size: .82rem; line-height: 1.32; }
 }
