@@ -109,18 +109,66 @@ code {
 }
 
 .card {
+  position: relative;
+  isolation: isolate;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   aspect-ratio: 1 / 1;
-  padding: 2.1rem;
-  border: 2px solid var(--line);
+  overflow: hidden;
+  padding: 2.35rem;
+  border: 1px solid #713d20;
   border-radius: 50%;
-  background: radial-gradient(circle at 50% 42%, #fffdf7 0 64%, var(--paper-deep) 100%);
-  box-shadow: 0 8px 20px rgba(74, 49, 29, .09);
+  background:
+    radial-gradient(circle at 34% 22%, rgba(255, 235, 174, .9) 0 2%, transparent 9%),
+    radial-gradient(circle at 68% 76%, rgba(103, 49, 21, .28) 0 1%, transparent 8%),
+    repeating-conic-gradient(
+      from -4deg,
+      #a95d2b 0 5deg,
+      #e4a351 5deg 11deg,
+      #f2c476 11deg 16deg,
+      #bd7135 16deg 21deg
+    );
+  box-shadow:
+    0 12px 22px rgba(74, 49, 29, .18),
+    inset 0 0 0 3px rgba(92, 46, 22, .2),
+    inset 0 0 18px rgba(83, 39, 18, .48);
   text-align: center;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 7.5%;
+  border: 2px solid #b87335;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 27% 31%, rgba(139, 75, 35, .18) 0 2px, transparent 3px),
+    radial-gradient(circle at 72% 68%, rgba(139, 75, 35, .14) 0 2px, transparent 3px),
+    radial-gradient(circle at 66% 24%, rgba(255, 255, 255, .7) 0 2px, transparent 4px),
+    radial-gradient(circle at 50% 42%, #fffdf7 0 52%, #f7ecd7 78%, #e8c894 100%);
+  box-shadow:
+    0 0 0 5px #efbd6d,
+    0 0 0 7px #995326,
+    inset 0 0 22px rgba(133, 74, 31, .2);
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 1.4%;
+  border: 2px dashed rgba(255, 223, 151, .48);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.card > * {
+  position: relative;
+  z-index: 1;
 }
 
 .card h3 { margin: .25rem 0 .75rem; font-size: 1.35rem; }
