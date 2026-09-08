@@ -1,5 +1,4 @@
 <!-- 0 MENU_ENTRY=Bakery -->
-<!-- 90 EXTERNAL_MENU_ENTRY=GitLab LINK=https://gitlab.com/Joao-O-Santos -->
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 
 # Fresh from the oven
@@ -48,8 +47,6 @@ The common recipe is intentionally simple: add one useful capability, keep the s
   </article>
 </div>
 
-## Bakery rule
+## Still hungry?
 
-The Bakery is for things made here. Dependencies and upstream projects are ingredients, not pies.
-
-In particular, [`pi-chrome-use`](https://github.com/citrolabs/pi-chrome-use) is an upstream project used by Pi-lease; it is **not** part of J's Pi Bakery.
+There are plenty of good things beyond this counter. Browse [other delicious pies](./other-pies.html) from the wider Pi community.
