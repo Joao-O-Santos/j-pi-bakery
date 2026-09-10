@@ -37,6 +37,18 @@ A user-directed, read-only web-retrieval extension exposing one `web` tool. It s
 
 *GitLab Pages documentation is not currently deployed by this repository.*
 
+## pi-filler
+
+**Purpose:** provide deterministic, bounded DOCX and PDF operations through one small Pi tool.
+
+`pi-filler` exposes one `filler` tool for DOCX/PDF reading and search, PDF page rendering, Markdown-to-DOCX generation, DOCX formatting inspection, and narrowly scoped DOCX patches. PDF writes and patches are deliberately unsupported.
+
+- **Install:** `pi install npm:pi-filler` once released; the current v0.0.0 implementation is still a release candidate.
+- **Documentation:** [README on GitLab](https://gitlab.com/Joao-O-Santos/pi-filler/-/blob/main/README.md)
+- **Source:** [gitlab.com/Joao-O-Santos/pi-filler](https://gitlab.com/Joao-O-Santos/pi-filler)
+
+*GitLab Pages documentation is not currently deployed by this repository.*
+
 ## Pi-lease
 
 **Purpose:** let you ask Pi to pi-lease use a real browser.
@@ -48,3 +60,10 @@ Pi-lease launches ordinary Pi with a visible dedicated Chromium profile and expl
 - **Source:** [gitlab.com/Joao-O-Santos/pi-lease](https://gitlab.com/Joao-O-Santos/pi-lease)
 
 *GitLab Pages documentation is not currently deployed by this repository.*
+
+## Project scaffold
+
+`pi-tin` is part of the Bakery but is not itself a runtime extension. It is the reusable repository mould for small Pi projects, carrying the shared package, verification, documentation, GitLab release, and mirrored Pages conventions.
+
+- **Documentation:** [README on GitLab](https://gitlab.com/Joao-O-Santos/pi-tin/-/blob/main/README.md)
+- **Source:** [gitlab.com/Joao-O-Santos/pi-tin](https://gitlab.com/Joao-O-Santos/pi-tin)

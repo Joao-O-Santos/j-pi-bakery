@@ -19,9 +19,11 @@ Rendered files appear under `public/`.
 - Pi Sych
 - pi-auch
 - pi-pew-pew
+- pi-filler
+- pi-tin
 - Pi-lease
 
-`pi-chrome-use` is an upstream dependency used by Pi-lease and is deliberately not listed as a Bakery project.
+`pi-tin` is the reusable repository scaffold used for small Bakery projects rather than a runtime extension. `pi-chrome-use` is an upstream dependency used by Pi-lease and is deliberately not listed as a Bakery project.
 
 ## License
 

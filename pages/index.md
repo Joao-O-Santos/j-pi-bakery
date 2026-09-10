@@ -40,6 +40,20 @@ The common recipe is intentionally simple: add one useful capability, keep the s
   </article>
 
   <article class="card">
+    <div class="card-kicker">documents</div>
+    <h3>pi-filler</h3>
+    <p>One bounded document tool for deterministic DOCX and PDF reading, search, generation, inspection, patching, and page rendering.</p>
+    <p><a class="button" href="https://gitlab.com/Joao-O-Santos/pi-filler/-/blob/main/README.md">Documentation</a> <a href="https://gitlab.com/Joao-O-Santos/pi-filler">Source</a></p>
+  </article>
+
+  <article class="card">
+    <div class="card-kicker">project mould</div>
+    <h3>pi-tin</h3>
+    <p>A reusable repository scaffold for small Bakery projects: packaging, verification, documentation, GitLab publishing, and mirrored Pages without becoming a runtime dependency.</p>
+    <p><a class="button" href="https://gitlab.com/Joao-O-Santos/pi-tin/-/blob/main/README.md">Documentation</a> <a href="https://gitlab.com/Joao-O-Santos/pi-tin">Source</a></p>
+  </article>
+
+  <article class="card">
     <div class="card-kicker">visible browser</div>
     <h3>Pi-lease</h3>
     <p>A launcher that gives one Pi session a visible, dedicated Chromium profile and explicitly loads the upstream <code>pi-chrome-use</code> extension.</p>
