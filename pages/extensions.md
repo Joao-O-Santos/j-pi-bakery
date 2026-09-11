@@ -77,7 +77,7 @@ Pi-lease launches ordinary Pi with a visible dedicated Chromium profile and expl
 *GitLab Pages documentation is not currently deployed by this repository.*
 
 <div class="project-heading">
-  <div class="project-crest project-crest--small"><img src="https://gitlab.com/Joao-O-Santos/pi-tin/-/raw/main/logo.png" alt="pi-tin logo"></div>
+  <div class="project-crest project-crest--small project-crest--pi-tin"><span class="project-crest-art"><img src="https://gitlab.com/Joao-O-Santos/pi-tin/-/raw/main/logo.png" alt="pi-tin logo"></span></div>
   <div><div class="card-kicker">project mould</div><h2>Project scaffold</h2></div>
 </div>
 

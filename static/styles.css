@@ -149,12 +149,12 @@ code {
   position: absolute;
   z-index: 0;
   inset: 7.5%;
-  border: 2px solid #b87335;
+  border: 1px solid #b87335;
   border-radius: 50%;
   background: #fff;
   box-shadow:
-    0 0 0 5px #efbd6d,
-    0 0 0 7px #995326,
+    0 0 0 3px #efbd6d,
+    0 0 0 4px #995326,
     inset 0 0 22px rgba(133, 74, 31, .2);
 }
 
@@ -162,12 +162,12 @@ code {
   content: "";
   position: absolute;
   z-index: 2;
-  inset: 7.5%;
-  border: 2px solid #995326;
+  inset: 8%;
+  border: 1px solid #995326;
   border-radius: 50%;
   box-shadow:
-    inset 0 0 0 .18rem #995326,
-    inset 0 0 0 .62rem #efbd6d;
+    inset 0 0 0 .12rem #995326,
+    inset 0 0 0 .4rem #efbd6d;
   pointer-events: none;
 }
 
@@ -184,8 +184,45 @@ code {
 
 .project-crest--small {
   flex: 0 0 auto;
-  width: 7.5rem;
+  width: 9rem;
   margin: 0;
+}
+
+.project-crest--small img {
+  width: 90%;
+  height: 90%;
+}
+
+.project-crest--pi-tin .project-crest-art {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 84%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.project-crest--pi-tin .project-crest-art img {
+  width: 131%;
+  height: 131%;
+  max-width: none;
+  transform: translate(-12%, -10%);
+}
+
+.project-crest--small::before {
+  inset: 4.5%;
+  box-shadow:
+    0 0 0 1px #efbd6d,
+    0 0 0 2px #995326,
+    inset 0 0 8px rgba(133, 74, 31, .12);
+}
+
+.project-crest--small::after {
+  inset: 4.5%;
+  box-shadow:
+    inset 0 0 0 .04rem #995326,
+    inset 0 0 0 .12rem #efbd6d;
 }
 
 .project-heading {
@@ -216,5 +253,6 @@ footer {
 
 @media (max-width: 480px) {
   .project-heading { align-items: flex-start; gap: .8rem; }
-  .project-crest--small { width: 5.5rem; }
+  .project-crest--small { width: 6.5rem; }
+  .project-crest--small img { width: 90%; height: 90%; }
 }

@@ -51,7 +51,7 @@ The common recipe is intentionally simple: add one useful capability, keep the s
   </article>
 
   <article class="project-card">
-    <div class="project-crest"><img src="https://gitlab.com/Joao-O-Santos/pi-tin/-/raw/main/logo.png" alt="pi-tin logo"></div>
+    <div class="project-crest project-crest--pi-tin"><span class="project-crest-art"><img src="https://gitlab.com/Joao-O-Santos/pi-tin/-/raw/main/logo.png" alt="pi-tin logo"></span></div>
     <div class="card-kicker">project mould</div>
     <h3>pi-tin</h3>
     <p>A reusable repository scaffold for small Bakery projects: packaging, verification, documentation, GitLab publishing, and mirrored Pages without becoming a runtime dependency.</p>
