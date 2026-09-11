@@ -18,42 +18,48 @@ The common recipe is intentionally simple: add one useful capability, keep the s
 ## The pies
 
 <div class="card-grid">
-  <article class="card">
+  <article class="project-card">
+    <div class="project-crest"><img src="https://gitlab.com/Joao-O-Santos/pi-sych/-/raw/main/docs/img/logo.png" alt="Pi Sych logo"></div>
     <div class="card-kicker">durable projects</div>
     <h3>Pi Sych</h3>
     <p>Inspectable project files, bounded fresh-context workers, mechanical state checks, and human-owned consequential decisions.</p>
     <p><a class="button" href="https://joao-o-santos.gitlab.io/pi-sych/">Documentation</a> <a href="https://gitlab.com/Joao-O-Santos/pi-sych">Source</a></p>
   </article>
 
-  <article class="card">
+  <article class="project-card">
+    <div class="project-crest"><img src="https://gitlab.com/Joao-O-Santos/pi-auch/-/raw/main/logo.png" alt="pi-auch logo"></div>
     <div class="card-kicker">quota visibility</div>
     <h3>pi-auch</h3>
     <p>Compact Codex and Copilot quota visibility in Pi's footer, with increasingly pained human reactions as usage climbs.</p>
     <p><a class="button" href="https://gitlab.com/Joao-O-Santos/pi-auch/-/blob/main/README.md">Documentation</a> <a href="https://gitlab.com/Joao-O-Santos/pi-auch">Source</a></p>
   </article>
 
-  <article class="card">
+  <article class="project-card">
+    <div class="project-crest"><img src="https://gitlab.com/Joao-O-Santos/pi-pew-pew/-/raw/main/logo.png" alt="pi-pew-pew logo"></div>
     <div class="card-kicker">read-only web</div>
     <h3>pi-pew-pew</h3>
     <p><strong>Pi Explores Webs; Politely Escalates Webfetches.</strong> One read-only web tool that moves from fetch to render to screenshot when needed.</p>
     <p><a class="button" href="https://gitlab.com/Joao-O-Santos/pi-pew-pew/-/blob/main/README.md">Documentation</a> <a href="https://gitlab.com/Joao-O-Santos/pi-pew-pew">Source</a></p>
   </article>
 
-  <article class="card">
+  <article class="project-card">
+    <div class="project-crest"><img src="https://gitlab.com/Joao-O-Santos/pi-filler/-/raw/main/logo.png" alt="pi-filler logo"></div>
     <div class="card-kicker">documents</div>
     <h3>pi-filler</h3>
     <p>One bounded document tool for deterministic DOCX and PDF reading, search, generation, inspection, patching, and page rendering.</p>
     <p><a class="button" href="https://gitlab.com/Joao-O-Santos/pi-filler/-/blob/main/README.md">Documentation</a> <a href="https://gitlab.com/Joao-O-Santos/pi-filler">Source</a></p>
   </article>
 
-  <article class="card">
+  <article class="project-card">
+    <div class="project-crest"><img src="https://gitlab.com/Joao-O-Santos/pi-tin/-/raw/main/logo.png" alt="pi-tin logo"></div>
     <div class="card-kicker">project mould</div>
     <h3>pi-tin</h3>
     <p>A reusable repository scaffold for small Bakery projects: packaging, verification, documentation, GitLab publishing, and mirrored Pages without becoming a runtime dependency.</p>
     <p><a class="button" href="https://gitlab.com/Joao-O-Santos/pi-tin/-/blob/main/README.md">Documentation</a> <a href="https://gitlab.com/Joao-O-Santos/pi-tin">Source</a></p>
   </article>
 
-  <article class="card">
+  <article class="project-card">
+    <div class="project-crest"><img src="https://gitlab.com/Joao-O-Santos/pi-lease/-/raw/main/logo.png" alt="Pi-lease logo"></div>
     <div class="card-kicker">visible browser</div>
     <h3>Pi-lease</h3>
     <p>A launcher that gives one Pi session a visible, dedicated Chromium profile and explicitly loads the upstream <code>pi-chrome-use</code> extension.</p>

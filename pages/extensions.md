@@ -3,7 +3,10 @@
 
 # Extensions
 
-## Pi Sych
+<div class="project-heading">
+  <div class="project-crest project-crest--small"><img src="https://gitlab.com/Joao-O-Santos/pi-sych/-/raw/main/docs/img/logo.png" alt="Pi Sych logo"></div>
+  <div><div class="card-kicker">durable projects</div><h2>Pi Sych</h2></div>
+</div>
 
 **Purpose:** keep long-running LLM-assisted projects understandable across conversations.
 
@@ -13,7 +16,10 @@ Pi Sych stores durable project state in ordinary files, reports mechanical chang
 - **GitLab Pages:** [joao-o-santos.gitlab.io/pi-sych](https://joao-o-santos.gitlab.io/pi-sych/)
 - **Source:** [gitlab.com/Joao-O-Santos/pi-sych](https://gitlab.com/Joao-O-Santos/pi-sych)
 
-## pi-auch
+<div class="project-heading">
+  <div class="project-crest project-crest--small"><img src="https://gitlab.com/Joao-O-Santos/pi-auch/-/raw/main/logo.png" alt="pi-auch logo"></div>
+  <div><div class="card-kicker">quota visibility</div><h2>pi-auch</h2></div>
+</div>
 
 **Purpose:** make quota usage visible without spending quota to check quota.
 
@@ -25,7 +31,10 @@ It adds compact OpenAI Codex and GitHub Copilot usage information to Pi's standa
 
 *GitLab Pages documentation is not currently deployed by this repository.*
 
-## pi-pew-pew
+<div class="project-heading">
+  <div class="project-crest project-crest--small"><img src="https://gitlab.com/Joao-O-Santos/pi-pew-pew/-/raw/main/logo.png" alt="pi-pew-pew logo"></div>
+  <div><div class="card-kicker">read-only web</div><h2>pi-pew-pew</h2></div>
+</div>
 
 **pew-pew — Pi Explores Webs; Politely Escalates Webfetches**
 
@@ -37,7 +46,10 @@ A user-directed, read-only web-retrieval extension exposing one `web` tool. It s
 
 *GitLab Pages documentation is not currently deployed by this repository.*
 
-## pi-filler
+<div class="project-heading">
+  <div class="project-crest project-crest--small"><img src="https://gitlab.com/Joao-O-Santos/pi-filler/-/raw/main/logo.png" alt="pi-filler logo"></div>
+  <div><div class="card-kicker">documents</div><h2>pi-filler</h2></div>
+</div>
 
 **Purpose:** provide deterministic, bounded DOCX and PDF operations through one small Pi tool.
 
@@ -49,7 +61,10 @@ A user-directed, read-only web-retrieval extension exposing one `web` tool. It s
 
 *GitLab Pages documentation is not currently deployed by this repository.*
 
-## Pi-lease
+<div class="project-heading">
+  <div class="project-crest project-crest--small"><img src="https://gitlab.com/Joao-O-Santos/pi-lease/-/raw/main/logo.png" alt="Pi-lease logo"></div>
+  <div><div class="card-kicker">visible browser</div><h2>Pi-lease</h2></div>
+</div>
 
 **Purpose:** let you ask Pi to pi-lease use a real browser.
 
@@ -61,7 +76,10 @@ Pi-lease launches ordinary Pi with a visible dedicated Chromium profile and expl
 
 *GitLab Pages documentation is not currently deployed by this repository.*
 
-## Project scaffold
+<div class="project-heading">
+  <div class="project-crest project-crest--small"><img src="https://gitlab.com/Joao-O-Santos/pi-tin/-/raw/main/logo.png" alt="pi-tin logo"></div>
+  <div><div class="card-kicker">project mould</div><h2>Project scaffold</h2></div>
+</div>
 
 `pi-tin` is part of the Bakery but is not itself a runtime extension. It is the reusable repository mould for small Pi projects, carrying the shared package, verification, documentation, GitLab release, and mirrored Pages conventions.
 
